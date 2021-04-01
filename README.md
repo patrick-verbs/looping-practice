@@ -1,11 +1,20 @@
 # Looping practice
 
+//  * take ui input
+* translate input
+  + 
+//  * print translation to DOM
+
 ## Tests
 ### Passing
 #### Description toRoman()
 Test: Convert 1 to the string "I"
 Code: toRoman(1)
 Expected Output: "I"
+
+Test: Convert ___n___ to a string of ___n___ "I"s
+Code: toRoman(3), toRoman(9) ...
+Expected Output: "III", "IIIIIIIII" ...
 
 ### Failing
 #### Description toRoman()

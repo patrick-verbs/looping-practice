@@ -15,6 +15,7 @@ const quintupledNumbers = numbers.map(number => quintupleMe(number))
 
 
 function toRoman(number) {
-  const romanNumerals = "I"
+  const romanNumeralOne = "I"
+  const romanNumerals = romanNumeralOne.repeat(number)
   return romanNumerals
 }
