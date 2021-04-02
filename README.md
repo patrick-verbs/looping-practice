@@ -1,3 +1,7 @@
+# ~~WORKING HARD~~
+
+# hardly working...
+
 # Looping practice
 
 //  * take ui input
@@ -7,21 +11,37 @@
 
 ## Tests
 ### Passing
-#### Description toRoman()
+#### __Description:__ toRoman()
 Test: Convert 1 to the string "I"
-Code: toRoman(1)
-Expected Output: "I"
+
+Code: <pre>toRoman(1)</pre>
+
+Expected Output: <pre>"I"</pre>
+
+
 
 Test: Convert ___n___ to a string of ___n___ "I"s
-Code: toRoman(3), toRoman(9) ...
-Expected Output: "III", "IIIIIIIII" ...
+
+Code: <pre>toRoman(3), toRoman(9) ...</pre>
+
+Expected Output: <pre>"III", "IIIIIIIII" ...</pre>
+
+
+
+Test: Convert 5 to the string "V"
+
+Code: <pre>toRoman(5)</pre>
+
+Expected Output: <pre>"V"</pre>
+
 
 ### Failing
-#### Description toRoman()
+#### __Description:__ toRoman()
 
 
 ## Roman numerals
 #### My old FileMaker Pro function
+<pre>
 Case(
 Get( ActiveFieldContents )>1000000;Get( ActiveFieldContents );
 
@@ -42,3 +62,4 @@ Choose(Mod(Get ( ActiveFieldContents ); 10);
 
 "";"I";"II";"III";"IV";"V";"VI";"VII";"VIII";"IX")
 )
+</pre>
